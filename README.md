@@ -16,6 +16,6 @@ What does a cycle in server communication look like?
 So lets consider conversation
 
 
-![GitHub Logo](images/Rails Communication.png)
-Format: ![Alt Text](url)
+![Server Communication](images/rails_comms.png)
+Format: ![Does This work?](images/rails_comms.png)
 
