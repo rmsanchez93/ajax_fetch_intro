@@ -9,13 +9,40 @@ Everything in  life is communicating. In Mod 2 we went over our request response
 
 So far in Javascript we have learned to manipulate the DOM, we can grab Elements already on our index.html, create new Elements, change the text or other data in that Element and attach it to the DOM. 
 The next part is crucial to know how modern web applications access and populate their data. 
-Let's take facebook for example, we log in and we see our tiimeline, our timeline has a _bunch_ of information. That iis a LOT of code to create an element for, change inner text and append to.  
+
+Lets consider Facebook
+Lets take 2 minutes, and using what we have learned in class so far lets come up with a way to build facebook.
+We know how to grab elements, how to create and add to element on our HTML. 
+
+There's a lot of people on facebook and we as developers can *not* stay writing javascript for every single user. So where does this data come from, if it's not hardcoded or in dynamic javascript yet? 
+
+*Databases* 
+Correct, we have data lying around in a database that can be accessed through a server given a url. 
+
+
+
+
+
 
 What does a cycle in server communication look like? 
 
-So lets consider conversation
+So lets consider Mod2 Communication between servers:
+![Server Communication](images/server_comms1.png)
 
 
-![Server Communication](images/rails_comms.png)
-Format: ![Does This work?](images/rails_comms.png)
+With more detail here: 
+![Rails Emphasis on Server Communication](images/rails_comms.png)
+
+Why is any of this important? 
+Lets consider Facebook
+Lets take 2 minutes, and using what we have learned in class so far lets come up with a way to build facebook.
+We know how to grab elements, how to create and add to element on our HTML. 
+
+There's a lot of people on facebook and we as developers can *not* stay writing javascript for every single user. So where does this data come from, if it's not hardcoded or in dynamic javascript yet? 
+
+*Databases* 
+Correct, we have data lying around in a database that can be accessed through a server given a url. 
+
+
+
 

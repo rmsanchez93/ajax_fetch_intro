@@ -1,0 +1,14 @@
+{"profiles":[
+    {
+        "id":1,
+        "name": "Gadi",
+        "picture": "./images/profile/gadi_profile.jpg",
+        "description": "handsome Gadi"
+    },
+    {
+        "id":2,
+        "name": "Israel",
+        "picture": "./images/profile/israel_profile.jpg",
+        "description": "handsome flatiron alum"
+    }
+]}

@@ -5,11 +5,18 @@
 .headline{
    text-align: center;
 }
-
+.profilePicture{
+    height: 100px;
+    width: auto;
+}
 .container{
-    display: flex;
-    justify-content: space-evenly;
+    padding:25px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
 }
 .card{
     display:flex;
+}
+button{
+    margin-top: 15px;
 }
