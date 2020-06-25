@@ -28,9 +28,6 @@ The next part is crucial to know how modern web applications access and populate
 
 Lets consider Facebook, Instagram, Twitter
 
-Take 2 minutes, and using what we have learned in class so far lets come up with a way to build facebook.
-We know how to grab elements, how to create and add to element on our HTML. 
-
 There's a lot of people on facebook and we as developers can *not* stay writing javascript for every single user. So where does this data come from, if it's not hardcoded or in dynamic javascript yet? 
 
 ## *Servers Connected to Databases* 
