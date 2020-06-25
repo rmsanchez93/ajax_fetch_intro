@@ -10,9 +10,12 @@ let fetchButton = document.getElementById('fetchClick')
 
 fetchButton.addEventListener('click', ()=>{
     console.log('fetch was clicked')
+    // you go in and place your order
     fetch('http://localhost:3000/profiles')
+    //  your order is being processsed
     .then(res=> res.json())
-    .then(profiles=> profiles.forEach(profile=> createCard(profile)))
+    //boom, you got a meal ready to unwrap and eat
+    .then(abc=> abc.forEach(profile=> createCard(profile)))
 })
 
 createCard = (profile) => {
